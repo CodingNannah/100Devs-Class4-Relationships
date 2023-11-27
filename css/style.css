@@ -1,0 +1,28 @@
+h1{
+    color:purple;
+}
+
+/* all h2s yellow */
+/* h2{
+    color:yellow;
+} */
+
+/* only World & Zebra blue */
+/* section h2{
+    color: blue;
+} */
+/* Unicorn was blue, too! */
+/* target direct! */
+section > h2{
+    color: blue;
+}
+
+/* Make Unicorn & Duck red - flexible w/o caret & direct w (preference here)*/
+article h2{
+    color:red;
+}
+
+/* Make Unicorn orange */
+section article h2{
+    color: orange;
+}
