@@ -3,21 +3,23 @@ h1{
 }
 
 /* all h2s yellow */
-/* h2{
+h2{
     color:yellow;
-} */
+    font-weight: bold;
+    font-size: 50px;
+}
 
-/* only World & Zebra blue */
-/* section h2{
+/* World & Zebra blue */
+section h2{
     color: blue;
-} */
+}
 /* Unicorn was blue, too! */
 /* target direct! */
 section > h2{
     color: blue;
 }
 
-/* Make Unicorn & Duck red - flexible w/o caret & direct w (preference here)*/
+/* Make Unicorn & Duck red */
 article h2{
     color:red;
 }
